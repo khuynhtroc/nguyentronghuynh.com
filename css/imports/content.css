@@ -26,14 +26,3 @@
 }
 
 #content .container { position: relative; }
-
-.grid-container {
-	position: relative;
-	overflow: hidden;
-}
-
-body:not(.device-touch) .grid-container {
-	-webkit-transition: height .4s ease;
-	-o-transition: height .4s ease;
-	transition: height .4s ease;
-}

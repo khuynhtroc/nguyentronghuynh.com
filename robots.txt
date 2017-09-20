@@ -1,6 +1,18 @@
+---
+layout: null
+---
+User-Agent: *
+Disallow: /wp-admin
+Disallow: /wp-content/
 
-
-User-Agent: /
+{% if site.allow_search_engine == "false" %}
+User-Agent: *
 Disallow: /
-Allow: 
+Disallow: /*
 
+{% endif %}
+
+User-agent: AhrefsBot
+Disallow: /
+
+Sitemap: {{ site.url }}/sitemap.xml

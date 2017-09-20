@@ -355,12 +355,12 @@ var SEMICOLON = SEMICOLON || {};
 		commonHeight: function( element ){
 			var maxHeight = 0;
 			element.children('[class*=col-]').each(function() {
-				var elementChild = $(this).children();
-				if( elementChild.hasClass('max-height') ){
-					maxHeight = elementChild.outerHeight();
+				var element = $(this).children();
+				if( element.hasClass('max-height') ){
+					maxHeight = element.outerHeight();
 				} else {
-					if (elementChild.outerHeight() > maxHeight)
-					maxHeight = elementChild.outerHeight();
+					if (element.outerHeight() > maxHeight)
+					maxHeight = element.outerHeight();
 				}
 			});
 
@@ -550,7 +550,7 @@ var SEMICOLON = SEMICOLON || {};
 							items: { src: elementTarget },
 							type: 'inline',
 							mainClass: 'mfp-no-margins mfp-fade',
-							closeBtnInside: true,
+							closeBtnInside: false,
 							fixedContentPos: true,
 							removalDelay: 500,
 							callbacks: {
@@ -616,8 +616,6 @@ var SEMICOLON = SEMICOLON || {};
 				}
 				$(this).find('.entry-timeline').fadeIn();
 			});
-
-			$('.entry.entry-date-section').next().next().find('.entry-timeline').css({ 'top': '70px' });
 		},
 
 		pageTransition: function(){
@@ -727,12 +725,6 @@ var SEMICOLON = SEMICOLON || {};
 
 		lazyLoad: function() {
 			var lazyLoadEl = $('[data-lazyload]');
-
-			if( !$().appear ) {
-				console.log('lazyLoad: Appear not Defined.');
-				return true;
-			}
-
 			if( lazyLoadEl.length > 0 ) {
 				lazyLoadEl.each( function(){
 					var element = $(this),
@@ -1262,7 +1254,7 @@ var SEMICOLON = SEMICOLON || {};
 		sidePanel: function(){
 			$(".side-panel-trigger").click(function(){
 				$body.toggleClass("side-panel-open");
-				if( $body.hasClass('device-touch') && $body.hasClass('side-push-panel') ) {
+				if( $body.hasClass('device-touch') ) {
 					$body.toggleClass("ohidden");
 				}
 				return false;
@@ -1310,8 +1302,7 @@ var SEMICOLON = SEMICOLON || {};
 							} else {
 								$('#primary-menu > ul, #primary-menu > div > ul').toggleClass('show', false);
 							}
-							$pagemenu.toggleClass('pagemenu-active', false);
-							$body.toggleClass('primary-menu-open', false);
+							$pagemenu.toggleClass('pagemenu-active', false );
 						}
 
 						$('html,body').stop(true).animate({
@@ -1535,7 +1526,7 @@ var SEMICOLON = SEMICOLON || {};
 				$sliderParallaxEl.find('.slider-parallax-inner').css({ 'width': '', height: '' });
 			}
 
-			if( swiperSlider ) { swiperSlider.update( true ); }
+			if( swiperSlider != '' ) { swiperSlider.update( true ); }
 		},
 
 		sliderRun: function(){
@@ -2122,7 +2113,6 @@ var SEMICOLON = SEMICOLON || {};
 			SEMICOLON.widget.contactForm();
 			SEMICOLON.widget.subscription();
 			SEMICOLON.widget.quickContact();
-			SEMICOLON.widget.stickySidebar();
 			SEMICOLON.widget.cookieNotify();
 			SEMICOLON.widget.extras();
 
@@ -2296,14 +2286,12 @@ var SEMICOLON = SEMICOLON || {};
 						elementVideo.css({ 'width': innerVideoWidth+'px', 'height': innerVideoHeight+'px', 'top': -innerVideoPosition+'px' });
 					}
 
-					if( SEMICOLON.isMobile.any() && !element.hasClass('no-placeholder') ) {
+					if( SEMICOLON.isMobile.any() ) {
 						var placeholderImg = elementVideo.attr('poster');
 
 						if( placeholderImg != '' ) {
 							element.append('<div class="video-placeholder" style="background-image: url('+ placeholderImg +');"></div>')
 						}
-
-						elementVideo.hide();
 					}
 				});
 			}
@@ -2527,12 +2515,7 @@ var SEMICOLON = SEMICOLON || {};
 					element.find('.acctitle').click(function(){
 						if( $(this).next().is(':hidden') ) {
 							element.find('.acctitle').removeClass('acctitlec').next().slideUp("normal");
-							var clickTarget = $(this);
-							$(this).toggleClass('acctitlec').next().slideDown("normal", function(){
-								$('html,body').stop(true).animate({
-									'scrollTop': clickTarget.offset().top - ( SEMICOLON.initialize.topScrollOffset() - 40 )
-								}, 800, 'easeOutQuad' );
-							});
+							$(this).toggleClass('acctitlec').next().slideDown("normal");
 						}
 						return false;
 					});
@@ -3088,16 +3071,13 @@ var SEMICOLON = SEMICOLON || {};
 				notifyPosition = notifyElement.attr('data-notify-position'),
 				notifyType = notifyElement.attr('data-notify-type'),
 				notifyMsg = notifyElement.attr('data-notify-msg'),
-				notifyTimeout = notifyElement.attr('data-notify-timeout'),
 				notifyCloseButton = notifyElement.attr('data-notify-close');
 
 			if( !notifyPosition ) { notifyPosition = 'toast-top-right'; } else { notifyPosition = 'toast-' + notifyElement.attr('data-notify-position'); }
 			if( !notifyMsg ) { notifyMsg = 'Please set a message!'; }
-			if( !notifyTimeout ) { notifyTimeout = 5000; }
 			if( notifyCloseButton == 'true' ) { notifyCloseButton = true; } else { notifyCloseButton = false; }
 
 			toastr.options.positionClass = notifyPosition;
-			toastr.options.timeOut = Number( notifyTimeout );
 			toastr.options.closeButton = notifyCloseButton;
 			toastr.options.closeHtml = '<button><i class="icon-remove"></i></button>';
 
@@ -3291,7 +3271,7 @@ var SEMICOLON = SEMICOLON || {};
 								} else {
 									$(form).find('.input-group-addon').find('.icon-line-loader').removeClass('icon-line-loader icon-spin').addClass('icon-email2');
 								}
-								if( data.alert != 'error' && elementRedirect ){
+								if( data.alert != 'error' && elementRedirect != '' ){
 									window.location.replace( elementRedirect );
 									return true;
 								}
@@ -3363,7 +3343,7 @@ var SEMICOLON = SEMICOLON || {};
 								} else {
 									$(form).find('.form-process').fadeOut();
 								}
-								if( data.alert != 'error' && elementRedirect ){
+								if( data.alert != 'error' && elementRedirect != '' ){
 									window.location.replace( elementRedirect );
 									return true;
 								}
@@ -3385,31 +3365,6 @@ var SEMICOLON = SEMICOLON || {};
 					}
 				});
 
-			});
-		},
-
-		stickySidebar: function(){
-
-			if( !$().scwStickySidebar ) {
-				console.log('stickySidebar: Sticky Sidebar is not Defined.');
-				return true;
-			}
-
-			var $stickySidebar = jQuery('.sticky-sidebar-wrap');
-			if( $stickySidebar.length < 1 ){ return true; }
-
-			$stickySidebar.each( function(){
-				var element = $(this),
-					elementTop = element.attr('data-offset-top'),
-					elementBottom = element.attr('data-offset-bottom');
-
-				if( !elementTop ) { elementTop = 110; }
-				if( !elementBottom ) { elementBottom = 50; }
-
-				element.scwStickySidebar({
-					additionalMarginTop: Number( elementTop ),
-					additionalMarginBottom: Number( elementBottom )
-				});
 			});
 		},
 

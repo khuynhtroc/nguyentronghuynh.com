@@ -156,8 +156,6 @@ label.error {
 
 label.error { display: none !important; }
 
-.show-error-msg + label.error { display: block !important; }
-
 .form-control.error,
 .sm-form-control.error { border-color: #E42C3E; }
 
@@ -227,6 +225,7 @@ label.error { display: none !important; }
 /* ----------------------------------------------------------------
 	Quotes & Blockquotes
 -----------------------------------------------------------------*/
+
 
 blockquote p { margin-bottom: 15px; }
 

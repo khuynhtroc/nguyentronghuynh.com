@@ -12,24 +12,22 @@
     Shop - 4 Columns (Default)
 -----------------------------------------------------------------*/
 
-.shop {
+#shop {
 	position: relative;
 	margin: 0 -20px -20px 0;
 }
 
-.product { position: relative; }
-
-.shop .product {
+.product {
 	position: relative;
 	float: left;
-	padding: 0 20px 20px 0;
-	width: 25%;
+	margin: 0 20px 20px 0;
+	width: 270px;
 }
 
 .product-image {
 	position: relative;
 	width: 100%;
-	height: auto;
+	height: 360px;
 	overflow: hidden;
 }
 
@@ -165,50 +163,63 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .product-overlay a {
 /* Shop - 3 Columns
 -----------------------------------------------------------------*/
 
-.shop.product-3 { margin: 0 -30px -30px 0; }
+#shop.product-3 { margin: 0 -30px -30px 0; }
 
 .product-3 .product {
-	padding: 0 30px 30px 0;
-	width: 33.33333333%;
+	margin: 0 30px 30px 0;
+	width: 360px;
 }
+
+.product-3 .product-image { height: 480px; }
 
 
 /* Shop - 3 Columns - Sidebar
 -----------------------------------------------------------------*/
 
-.postcontent .shop.product-3 { margin: 0 -25px -25px 0; }
+.postcontent #shop.product-3 { margin: 0 -25px -25px 0; }
 
-.postcontent .product-3 .product { padding: 0 25px 25px 0; }
+.postcontent .product-3 .product {
+	margin: 0 25px 25px 0;
+	width: 270px;
+}
+
+.postcontent .product-3 .product-image { height: 360px; }
 
 
 /* Shop - 2 Columns - Sidebar
 -----------------------------------------------------------------*/
 
-.postcontent .shop.product-2 { margin: 0 -40px -40px 0; }
+.postcontent #shop.product-2 { margin: 0 -40px -40px 0; }
 
 .postcontent .product-2 .product {
-	padding: 0 40px 40px 0;
-	width: 50%;
+	margin: 0 40px 40px 0;
+	width: 410px;
 }
+
+.postcontent .product-2 .product-image { height: 547px; }
 
 
 /* Shop - 2 Columns - Both Sidebar
 -----------------------------------------------------------------*/
 
-.bothsidebar .shop.product-2 { margin: 0 -40px -20px 0; }
+.bothsidebar #shop.product-2 { margin: 0 -40px -20px 0; }
 
-.bothsidebar .product-2 .product { padding: 0 40px 20px 0; }
+.bothsidebar .product-2 .product {
+	margin: 0 40px 20px 0;
+	width: 270px;
+}
+
+.bothsidebar .product-2 .product-image { height: 360px; }
 
 
 /* Shop - 1 Column
 -----------------------------------------------------------------*/
 
-.shop.product-1 { margin: 0 0 -40px 0; }
+#shop.product-1 { margin: 0 0 -40px 0; }
 
 .product-1 .product {
 	float: none;
 	margin: 0 0 40px 0;
-	padding: 0;
 	width: 100%;
 }
 
@@ -388,7 +399,6 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .product-overlay a {
 .product.iproduct {
 	float: none;
 	margin: 0;
-	padding: 0;
 	width: 100%;
 }
 
