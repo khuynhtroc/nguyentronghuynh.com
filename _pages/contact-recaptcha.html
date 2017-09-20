@@ -720,8 +720,8 @@
 
 					<nav>
 						<ul>
-							<li class="current"><a href="contact.html"><div>Default</div></a></li>
-							<li><a href="contact-recaptcha.html"><div>With reCaptcha</div></a></li>
+							<li><a href="contact.html"><div>Default</div></a></li>
+							<li class="current"><a href="contact-recaptcha.html"><div>With reCaptcha</div></a></li>
 							<li><a href="contact-file.html"><div>File Upload</div></a></li>
 							<li><a href="contact-inline.html"><div>Inline Notification</div></a></li>
 						</ul>
@@ -802,10 +802,18 @@
 								</div>
 
 								<div class="col_full">
+
+									<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+									<div class="g-recaptcha" data-sitekey="6LfijgUTAAAAACPt-XfRbQszAKAJY0yZDjjhMUQT"></div>
+
+								</div>
+
+								<div class="col_full">
 									<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
 								</div>
 
 							</form>
+
 						</div>
 
 					</div><!-- .postcontent end -->
@@ -825,7 +833,7 @@
 
 						<div class="widget noborder notoppadding">
 
-							<div class="fslider customjs testimonial twitter-scroll twitter-feed" data-username="envato" data-count="3" data-animation="slide" data-arrows="false">
+							<div class="fslider customjs testimonial twitter-scroll twitter-feed" data-username="envato" data-count="3" data-animation="fade" data-arrows="false">
 								<i class="i-plain i-small color icon-twitter nobottommargin" style="margin-right: 15px;"></i>
 								<div class="flexslider" style="width: auto;">
 									<div class="slider-wrap">
@@ -1126,12 +1134,11 @@
 
 	<script type="text/javascript">
 
-		jQuery('#google-map').gMap({
+		$('#google-map').gMap({
 
-			latitude: -37.9712369,
-			longitude: 144.4926746,
+			address: 'Melbourne, Australia',
 			maptype: 'ROADMAP',
-			zoom: 9,
+			zoom: 14,
 			markers: [
 				{
 					address: "Melbourne, Australia",
@@ -1153,6 +1160,7 @@
 				overviewMapControl: false
 			}
 		});
+
 
 	</script>
 
