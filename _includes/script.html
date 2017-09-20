@@ -2,7 +2,7 @@
 ============================================= -->
 <script type="text/javascript" src="{{ site.url }}/js/jquery.js"></script>
 <script type="text/javascript" src="{{ site.url }}/js/plugins.js"></script>
-<script type="text/javascript" src="//www.mageplaza.com/skin/frontend/mageplaza/default/js/ajax-search.js"></script>
+
 
 <!-- Footer Scripts
 ============================================= -->
@@ -21,7 +21,7 @@
 		 			var data = $('form#register').serialize();
 			        $.ajax({
 				        type : 'POST', 
-				        url  : 'https://services.mageplaza.com/email/subscribe.php', 
+				        url  : '#', 
 				        data : data,
 				       	dataType: "json",
 				        success :  function(response)
