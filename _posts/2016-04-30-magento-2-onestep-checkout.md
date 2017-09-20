@@ -53,7 +53,7 @@ One Step Checkout supports more than 60 payment methods such as Credit Card, Cre
 <h3>Other Sections on Single Checkout Page</h3>
 Apart from the sections, One Step Checkout provides another which have quite important role of optimizing customer’s satisfaction.
 
-<h3><a href="https://www.mageplaza.com/magento-2-gift-card-extension/">Gift Message</a></h3>
+<h3><a href="#">Gift Message</a></h3>
 Not only buy products for own but the customers can also make a little surprise if checkout via Magento 2 One Step Checkout extension. The gift will be sent to exact shipping address together with the meaningful wishes as they expect.
 
 <p><img src="https://i.imgur.com/vfIdqRK.png" alt="Magento 2 one step checkout" /></p>
@@ -80,7 +80,7 @@ Magento 2 One Step Checkout also create a comment box where your customers will 
 Terms and Conditions gives more information about order when carrying out the checkout process on your store. The TOS popup box will be displayed without navigation and the content can be asked for reading or not depending on your setting from Magento Admin.
 
 <h2>Social Login integration</h2>
-<a href="https://www.mageplaza.com/magento-2-social-login-extension/">Magento 2 Social Login</a> allows customers login/sign up simply in clicks with social accounts such as Google+, Twitter, Facebook, Linkedin, Instantgram...
+<a href="#">Magento 2 Social Login</a> allows customers login/sign up simply in clicks with social accounts such as Google+, Twitter, Facebook, Linkedin, Instantgram...
 
 <p><img src="https://i.imgur.com/21mMuUO.png" alt="Magento 2 one page checkout" /></p>
 
@@ -131,4 +131,4 @@ One-time payment and free lifetime support, update.
 <h3>Q: Can I install One Step Checkout on our test sites?</h3>
 Yes, definitely you can install on one live site and unlimited test sites.
 
-<p>Source: <a href="https://www.mageplaza.com/magento-2-one-step-checkout-extension/">Magento 2 One Step Checkout</a></p>
+<p>Source: <a href="#">Magento 2 One Step Checkout</a></p>

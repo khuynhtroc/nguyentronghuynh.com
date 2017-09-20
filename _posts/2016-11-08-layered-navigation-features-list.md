@@ -14,7 +14,7 @@ sitemap: true
 
 <h2>Article of Tutorial: <strong><a class="no-text-color" href="http://www.bestonestepcheckout.com/layered-navigation-features-list.html" class="no-text-color">Layered Navigation Magento 2</a></strong> Features</h2>
 
-<p>Basing on Magento 2 architecture, <strong><a class="no-text-color" href="https://www.mageplaza.com/magento-2-layered-navigation-extension/" class="no-text-color">Layered Navigation Magento 2</a></strong> module brings a list of search options to filter needed items from a thousand of products at your store.</p>
+<p>Basing on Magento 2 architecture, <strong><a class="no-text-color" href="#" class="no-text-color">Layered Navigation Magento 2</a></strong> module brings a list of search options to filter needed items from a thousand of products at your store.</p>
 
 <div class="symple-box  yellow left " style="text-align:left;"> 
 <h3><strong>Related Post:</strong></h3>
@@ -30,7 +30,7 @@ sitemap: true
 
 <p>In eCommerce business, you need to work with almost strangers who visit your store. So what is the important thing for the strange visitors looking at a new place? It is obviously a clear sitemap or a smart navigator that will direct them to any needed product without wasting much time to find it. With the good map, a whole of your customers won’t get lost anymore, and you can improve online customers’ experience as well.</p>
 
-<p>Today, I come and give you and all store owners a good news that can allow you to solve the existing difficulty in search help - <strong><a class="no-text-color" href="https://www.mageplaza.com/magento-2-layered-navigation-extension/" class="no-text-color">Layered Navigation extension</a></strong> from Magento 2 platform. To restrict any inconvenience, on the left sidebar, the layered navigation not only provides multiple filterable attributes with different values but it also reduces time considerably when integrating Ajax technology. Ajax means there is only reloading the search results instead of whole current page and all changes are ínstantly updated without any redirection.</p>
+<p>Today, I come and give you and all store owners a good news that can allow you to solve the existing difficulty in search help - <strong><a class="no-text-color" href="#" class="no-text-color">Layered Navigation extension</a></strong> from Magento 2 platform. To restrict any inconvenience, on the left sidebar, the layered navigation not only provides multiple filterable attributes with different values but it also reduces time considerably when integrating Ajax technology. Ajax means there is only reloading the search results instead of whole current page and all changes are ínstantly updated without any redirection.</p>
 
 
 <p>By now, <b>Magento 2 Layered Navigation</b> have  been launched for a long time and even gets many positive feedbacks from the user. So why not you are next person? Don’t go anyway unless you are clear about the usefulness for your clients that I am going to mention to in the below.</p>
@@ -53,4 +53,3 @@ sitemap: true
  
 <p>In summary, by the featured points, Magento 2 Layered Navigation module improve your site and fasten the search better than the standard Magento navigation does.</p>
 
-Source: <strong><a class="no-text-color" href="https://www.mageplaza.com/magento-2-layered-navigation-extension/" class="no-text-color">https://www.mageplaza.com/magento-2-layered-navigation-extension/</a></strong>

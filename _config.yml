@@ -1,15 +1,15 @@
-name: "Magento 2 One Step Checkout Extension"
-title: "Magento 2 One Step Checkout Extension"
-email: sam@mageplaza.com
-description: "ฏ๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎ํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํํFind and choose the best Magento 2 One Step Checkout extension"
-url: "https://www.bestonestepcheckout.com" 
-baseurl: "https://www.bestonestepcheckout.com"
-allow_search_engine: true
-google_verify: "mqeRPCxfPDdd8Ai589_r1ylvomMFyjYC0epneqbK74"
+name: "Skill For Life"
+title: "Skill For Life"
+email: khuynhtroc@gmail.com
+description: "Nghệ Thuật Giao Tiếp - Kỹ Năng Mềm - Câu Chuyện Cuộc Sống"
+url: "https://nguyentronghuynh.com" 
+baseurl: "https://nguyentronghuynh.com"
+allow_search_engine: false
+google_verify: ""
 bing_verify: ""
-google_analytics: "UA-74427984-8"
+google_analytics: ""
 google_plus: 
-disqus_shortname: "bestonestepcheckout"
+disqus_shortname: ""
 
 # Build Settings
 markdown: "kramdown"

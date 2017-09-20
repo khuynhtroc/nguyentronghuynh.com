@@ -14,7 +14,7 @@ sitemap: true
 
 ## Optimize the checkout conversion rate
 
-How to optimize the checkout conversion rate on e-Commerce business efficiently? [Mageplaza 2 One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) extension is the great choice for that along with the best practices it can bring to Magento 2 stores.
+How to optimize the checkout conversion rate on e-Commerce business efficiently? [Mageplaza 2 One Step Checkout](#) extension is the great choice for that along with the best practices it can bring to Magento 2 stores.
 
 Nowadays, the life is too busy for everyone to buy the desired items at traditional markets, the shopping online becomes a witness method to save much time. By 2014, 1.12  billion people worldwide are expected to buy goods & services online. Accessing the internet, the human can find anything with a variety of choices from different providers. Shopping online provides multi-selection for consumers but it begs a big question how to keep customer longer and increase the checkout conversion rate that has the direct impact on your revenue.
 

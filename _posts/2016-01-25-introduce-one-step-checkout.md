@@ -56,7 +56,7 @@ Integrate 60+ popular payment methods such as BrainTree, Stripe , Paypal (3D Sec
 <h3>Allow customers to specify delivery date, choose gift-wrap option, add order comment or do survey.</h3>
 
 <p>Display related products will also encourage customer buy more and more in order to increase rapidly your revenue and loyal customers.
-They are almost benefits of a <a href="https://www.mageplaza.com/">One Step Checkout extension</a> you should know!</p>
+They are almost benefits of a <a href="#">One Step Checkout extension</a> you should know!</p>
 
 <img src="https://i.imgur.com/x1tlK8R.png" alt="policy" class="img-responsive" >
 
@@ -64,5 +64,5 @@ They are almost benefits of a <a href="https://www.mageplaza.com/">One Step Chec
 </div>
 
 <p>
-More information, please go to seller page at <a href="https://www.mageplaza.com/magento-2-one-step-checkout-extension/">Mageplaza 2 one step checkout extension</a>
+More information, please go to seller page at <a href="#">Mageplaza 2 one step checkout extension</a>
 </p>
