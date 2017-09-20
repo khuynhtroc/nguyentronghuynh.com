@@ -2,8 +2,8 @@
 layout: null
 ---
 User-Agent: *
-Disallow: /wp-admin
-Disallow: /wp-content/
+Disallow: /
+Disallow: /
 
 {% if site.allow_search_engine == "false" %}
 User-Agent: *
