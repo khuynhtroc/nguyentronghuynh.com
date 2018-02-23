@@ -1,47 +1,8 @@
-<!-- External JavaScripts
-============================================= -->
-<script type="text/javascript" src="{{ site.url }}/js/jquery.js"></script>
-<script type="text/javascript" src="{{ site.url }}/js/plugins.js"></script>
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-line-arrow-up" data-class-md="" data-class-sm="button-xlarge" data-class-xs="button-small" data-class-xxs="button-mini"></div>
 
-
-<!-- Footer Scripts
-============================================= -->
-<script type="text/javascript" src="{{ site.url }}/js/functions.js"></script>
-
-<script type="text/javascript">
-	$(document).ready(function()
-		{  
-	 $("#register").submit(function()
-		    {
-
-
-		    	event.preventDefault();
-
-				
-		 			var data = $('form#register').serialize();
-			        $.ajax({
-				        type : 'POST', 
-				        url  : '#', 
-				        data : data,
-				       	dataType: "json",
-				        success :  function(response)
-				               {    
-				               		if(response.alert == 'success'){
-										$('#show-offers').modal('show');
-									}
-									else{
-										alert(response.message);
-									}
-
-				               }
-				        });
-
-
-		        	
-		    });
-		});
-
-
-</script>
-
-
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="{{ site.url }}/assets/js/jquery.js"></script>
+	<script type="text/javascript" src="{{ site.url }}/assets/js/plugins.js"></script>

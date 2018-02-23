@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html dir="ltr" lang="vi-VN">
 <head>
+
 	{% include head.html %}
+
 </head>
 
-<body class="no-transition stretched">
+<body class="no-transition stretched sticky-responsive-menu">
+
+	{% include _after_body.html %}
+	{% include fb_pixel_events.html %}
 
 	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
 		{% include header_landingpage.html %}
-
+		
 		<!-- Content
 		============================================= -->
 		<section id="content">
@@ -24,13 +29,18 @@
 
 		</section><!-- #content end -->
 
-		{% include footer.html %}
+		{% include footer_landingpage.html %}
 
 	</div><!-- #wrapper end -->
 
 
 {% include script.html %}
 
+{% include footer_script.html %}
+
+{% include footer_script_map.html %}
+
 
 </body>
 </html>
+ 
