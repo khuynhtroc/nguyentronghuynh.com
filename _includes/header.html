@@ -1,125 +1,93 @@
-		<!-- Header
+		<!-- Top Bar
 		============================================= -->
-		<header id="header" class="transparent-header semi-transparent">
+		<div id="top-bar">
 
-			<div id="header-wrap">
+			<div class="container clearfix">
 
-				<div class="container clearfix">
+				<div class="col_half nobottommargin">
 
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-					<!-- Logo
+					<!-- Top Links
 					============================================= -->
-					<div id="logo">
-						<a href="/" class="standard-logo" data-dark-logo="{{ site.url }}/assets/img/logo/logo.png"><img src="{{ site.url }}/assets/img/logo/logo.png" alt="Study Buddy Logo"></a>
-						<a href="/" class="retina-logo" data-dark-logo="{{ site.url }}/assets/img/logo/logo.png"><img src="{{ site.url }}/assets/img/logo/logo.png" alt="Study Buddy Logo"></a>
-					</div><!-- #logo end -->
-
-					<!-- Primary Navigation
-					============================================= -->
-					<nav id="primary-menu" class="style-3">
-
+					<div class="top-links">
 						<ul>
-							<li><a href="{{ site.url }}"><div>Trang chủ</div></a></li>
-							<li><a href="{{ site.url }}/projects/"><div>Bài Viết Mẫu</div></a></li>
-							<li><a href="{{ site.url }}/team/"><div>Đội ngũ</div></a></li>
-							<li><a href="{{ site.url }}/blog/"><div>Tin tức</div></a></li>
-							<li><a href="{{ site.url }}/contact/" class="color"><div>Liên hệ</div></a></li>
+							<li><a href="index.html">Trang Chủ</a></li>
+							<li><a href="faqs.html">Hỗ Trợ</a></li>
+							<li><a href="contact.html">Liên Hệ</a></li>
 						</ul>
+					</div><!-- .top-links end -->
 
-						<div id="top-header-buttons" class="hidden-xs">
-							<a href="tel:0123456789" class="button button-3d button-small button-rounded">HOTLINE: 0123 456 789</a>
-						</div>
+				</div>
 
-						<!-- Top Search
-						============================================= -->
-						<!--div id="top-search">
-							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-							<form action="tim-kiem" method="get">
-								<input type="text" name="q" class="form-control" value="" placeholder="Nhập nội dung tìm kiếm...">
-							</form>
-						</div--><!-- #top-search end -->
+				<div class="col_half fright col_last nobottommargin">
 
-					</nav><!-- #primary-menu end -->
+					<!-- Top Social
+					============================================= -->
+					<div id="top-social">
+						<ul>
+							<li><a href="#" class="si-facebook"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
+							<li><a href="#" class="si-twitter"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
+							<li><a href="#" class="si-instagram"><span class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
+							<li><a href="tel:0985629621" class="si-call"><span class="ts-icon"><i class="icon-call"></i></span><span class="ts-text">0985.629.621</span></a></li>
+							<li><a href="mailto:info@nguyentronghuynh.com" class="si-email3"><span class="ts-icon"><i class="icon-email3"></i></span><span class="ts-text">info@nguyentronghuynh.com</span></a></li>
+						</ul>
+					</div><!-- #top-social end -->
 
 				</div>
 
 			</div>
 
+		</div><!-- #top-bar end -->
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="sticky-style-2">
+
+			<div class="container clearfix">
+
+				<!-- Logo
+				============================================= -->
+				<div id="logo">
+					<a href="/" class="standard-logo" data-dark-logo="{{ site.url }}/assets/img/logo/logo.png"><img src="{{ site.url }}/assets/img/logo/logo.png" alt="Nguyễn Trọng Huỳnh Logo"></a>
+					<a href="/" class="retina-logo" data-dark-logo="{{ site.url }}/assets/img/logo/logo.png"><img src="{{ site.url }}/assets/img/logo/logo.png" alt="Nguyễn Trọng Huỳnh Logo"></a>
+				</div><!-- #logo end -->
+
+				<div class="top-advert">
+					<img src="images/magazine/ad.jpg" alt="Ad">
+				</div>
+
+			</div>
+
+			<div id="header-wrap">
+
+				<!-- Primary Navigation
+				============================================= -->
+				<nav id="primary-menu" class="style-2">
+
+					<div class="container clearfix">
+
+						<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+						<ul>
+							<li class="current"><a href="index.html"><div>Home</div></a></li>
+							<li><a href="#"><div>Features</div></a></li>
+							<li class="mega-menu"><a href="#"><div>Pages</div></a></li>
+							<li class="mega-menu"><a href="#"><div>Portfolio</div></a></li>
+							<li class="mega-menu"><a href="#"><div>Blog</div></a></li>
+						</ul>
+
+						<!-- Top Search
+						============================================= -->
+						<div id="top-search">
+							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+							<form action="search.html" method="get">
+								<input type="text" name="q" class="form-control" value="" placeholder="Nhập nội dung tìm kiếm...">
+							</form>
+						</div><!-- #top-search end -->
+
+					</div>
+
+				</nav><!-- #primary-menu end -->
+
+			</div>
+
 		</header><!-- #header end -->
-
-
-		<script type="application/ld+json">
-		    {
-		      "@context": "http://schema.org",
-		      "@type": "Organization",
-		      "url": "{{ site.url }}",
-		      "logo": "{{ site.url }}/assets/img/logo/logo.png"
-		    }
-		</script>
-		
-		<script type="application/ld+json">
-		    {
-		      "@context" : "http://schema.org",
-		      "@type" : "Organization",
-		      "url" : "{{ site.url }}",
-		      "contactPoint" : [{
-		        "@type" : "ContactPoint",
-		        "telephone" : "{{ site.phone }}",
-		        "contactType" : "Customer service"
-		      }]
-		    }
-		</script>
-		
-		<script type="application/ld+json">
-		{
-		  "@context" : "http://schema.org",
-		  "@type" : "Organization",
-		  "name" : "{{ site.name }}",
-		  "url" : "{{ site.url }}",
-		  "sameAs" : [
-		    "https://www.facebook.com/studybuddy.vn/",
-		    "https://twitter.com/studybuddy",
-		    "https://plus.google.com/u/7/100185032616610319793"
-		    
-		  ]
-		}
-		</script>
-		
-		<script type="application/ld+json">
-		{
-		  "@context": "http://schema.org",
-		  "@type": "WebSite",
-		  "url": "{{ site.url }}",
-		  "potentialAction": {
-		    "@type": "SearchAction",
-		    "target": "{{ site.url }}/search/?q={search_term_string}",
-		    "query-input": "required name=search_term_string"
-		  }
-		}
-		</script>
-		
-		{% if(page.enable_map_on_serp) %}
-		  <script type="application/ld+json">
-		  {
-		    "@context" : "http://schema.org",
-		    "@type" : "WebSite",
-		    "name" : "{{ page.product-name }}",
-		    "alternateName" : "{{ page.h1-title }}",
-		    "url" : "{{ site.url }}{{ page.url }}"
-		  }
-		  </script>
-		
-		{% else %}
-		
-		  <script type="application/ld+json">
-		  {
-		    "@context" : "http://schema.org",
-		    "@type" : "WebSite",
-		    "name" : "StudyBuddy",
-		    "alternateName" : "{{ site.name }}",
-		    "url" : "{{ site.url }}"
-		  }
-		  </script>
-		
-		{% endif %}		
