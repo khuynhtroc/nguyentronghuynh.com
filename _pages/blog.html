@@ -51,7 +51,7 @@ sitemap: true
     }
 </style-->
 
-
+ 
 
                 <div class="container clearfix">
 
@@ -68,7 +68,8 @@ sitemap: true
                             {% for post in site.posts %}
                                 <div class="entry clearfix">
                                     <div class="entry-timeline">
-                                        {{ post.date | date_to_string }}
+                                        {{ post.date | date:"%D%M" }}
+                                        <!--{{ site.time | date:"%D%M" }}-->
                                         <div class="timeline-divider"></div>
                                     </div>
                                     <div class="entry-image">
