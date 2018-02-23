@@ -22,7 +22,7 @@
 		<h4>BÀI VIẾT MỚI NHẤT</h4>
 		<div id="post-list-footer">
 
-			{% for post in site.categories.tin-tuc limit:5 %}
+			{% for post in site.posts limit:5 %}
 
 			<div class="spost clearfix">
 				<div class="entry-c">
@@ -44,7 +44,7 @@
 
 	<div id="subscriber" class="widget subscribe-widget clearfix">
 		<h4 class="highlight-me">ĐĂNG KÍ NHẬN KHUYẾN MÃI</h4>
-		<h5>Đăng kí nhận tin tức khuyến mãi mới nhất từ <span>TÂN BÌNH CHI</span></h5>
+		<h5>Đăng kí nhận tin tức khuyến mãi mới nhất</h5>
 		<form action="subscribe.php" role="form" class="notopmargin nobottommargin">
 			<div class="input-group divcenter">
 				<input type="text" class="form-control" placeholder="Địa chỉ Email" required="">
