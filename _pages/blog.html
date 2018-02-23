@@ -8,6 +8,7 @@ meta-description: ""
 permalink: "/blog/"
 published: true
 sitemap: true
+paginate: true
 ---
 <!--div class="container clearfix">
 
@@ -98,7 +99,7 @@ sitemap: true
                         </ul><!-- .pager end -->
 
                         <!-- Pagination links -->
-                        <div class="pagination">
+                        <ul class="pager nomargin">
                           {% if paginator.previous_page %}
                             <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
                           {% else %}
@@ -110,7 +111,7 @@ sitemap: true
                           {% else %}
                             <span class="next ">Next</span>
                           {% endif %}
-                        </div>
+                        </ul><!-- .pager end -->
 
                         {% if paginator.total_pages > 1 %}
                         <div class="pagination">
