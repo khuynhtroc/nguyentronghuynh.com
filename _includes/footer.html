@@ -14,11 +14,11 @@
 
 							<div class="widget clearfix">
 
-								<img src="media/images/footer-widget-logo.png" alt="" class="footer-logo">
+								<img src="{{ site.url }}/assets/img/logo/logo.png" alt="Logo" class="footer-logo">
 
 								<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
 
-								<div style="background: url('assets/images/world-map.png') no-repeat center center; background-size: 100%;">
+								<div style="background: url('{{ site.url }}/assets/images/world-map.png') no-repeat center center; background-size: 100%;">
 									<address>
 										<strong>Headquarters:</strong><br>
 										795 Folsom Ave, Suite 600<br>
@@ -52,44 +52,31 @@
 							</div>
 
 						</div>
-
+ 
 						<div class="col_one_third col_last">
 
 							<div class="widget clearfix">
-								<h4>Flickr Photostream</h4>
+								<h4>Bài viết mới nhất</h4>
 								<div id="post-list-footer">
-									<div class="spost clearfix">
-										<div class="entry-c">
-											<div class="entry-title">
-												<h4><a href="#">Lorem ipsum dolor sit amet, consectetur</a></h4>
-											</div>
-											<ul class="entry-meta">
-												<li>10th July 2014</li>
-											</ul>
-										</div>
-									</div>
-
-									<div class="spost clearfix">
-										<div class="entry-c">
-											<div class="entry-title">
-												<h4><a href="#">Elit Assumenda vel amet dolorum quasi</a></h4>
-											</div>
-											<ul class="entry-meta">
-												<li>10th July 2014</li>
-											</ul>
-										</div>
-									</div>
-
-									<div class="spost clearfix">
-										<div class="entry-c">
-											<div class="entry-title">
-												<h4><a href="#">Debitis nihil placeat, illum est nisi</a></h4>
-											</div>
-											<ul class="entry-meta">
-												<li>10th July 2014</li>
-											</ul>
-										</div>
-									</div>
+									{% for post in site.posts limit:3 %}
+    								    <div class="spost clearfix">
+    								        <div class="entry-c">
+    								            <div class="entry-image">
+    								               <a href="{{ site.url }}{{ post.url }}"><img class="image_fade img-circle" src="{{ post.image }}" alt="{{ post.title }}"></a>
+    								            </div>
+    								            <div class="entry-title">
+    								                <h5><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h5>
+    								            </div>
+    								            <ul class="entry-meta clearfix">
+    								                <li><i class="icon-calendar3"></i> {{ post.date | date_to_long_string }}</li>
+    								                <!-- <li><a href="#"><i class="icon-comments"></i> 12</a></li> -->
+    								            </ul>
+    								            <!-- <div>
+    								                <p>{{ post.excerpt }}</p>
+    								            </div> -->
+    								        </div>
+    								    </div>
+    								{% endfor %}
 								</div>
 							</div>
 
