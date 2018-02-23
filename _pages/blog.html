@@ -68,7 +68,7 @@ sitemap: true
                             {% for post in site.posts %}
                                 <div class="entry clearfix">
                                     <div class="entry-timeline">
-                                        {{ post.date | date:"%D%M" }}
+                                        {{ post.date | date:"%M%D" }}
                                         <!--{{ site.time | date:"%D%M" }}-->
                                         <div class="timeline-divider"></div>
                                     </div>
