@@ -34,8 +34,8 @@ author: Trọng Huỳnh
 
 Dạy con là cả một quá trình mà sự kiên nhẫn của cha mẹ gần như quyết định mọi thứ! Bé nào cũng ngang bướng, cũng khóc, cũng phản kháng. Nhưng đã dạy dỗ thì cần nhất quán. Đầu hàng với bé, bé sẽ không nghe lần sau nữa. Khi bố mẹ dạy, ông bà không can thiệp. Rất cần sự ủng hộ của cả gia đình trong việc uốn nắn một em bé!
 
-<img  src="/media/images/blog/bo-me-the-nao-con-the-ay.jpg" alt="nguyên tắc dạy con" class="image_fade responsive-img lazy">
+<img  src="/media/images/blog/bo-me-the-nao-con-the-ay.jpg" alt="nguyên tắc dạy con" class="center image_fade responsive-img lazy">
 
 Ai cũng yêu thương con mình cả. Nhưng dạy con là dạy cả mình nữa. Là bố mẹ, bạn đừng dạy con mình làm tổn thương người khác. Tất cả những đứa trẻ, đều như một tờ giấy trắng, đừng vì thương con mà dạy con ích kỷ, đừng dạy con đánh người. Một cái cây có thể tự lớn, nhưng để ra dáng đẹp, cũng cần uốn nắn nhiều.
 
-Sưu tầm: *`Mẹ bé Gạo`*
+- ***Sưu tầm:*** `Mẹ bé Gạo`
