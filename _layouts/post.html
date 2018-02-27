@@ -57,7 +57,7 @@
 						============================================= -->
 						<ul class="entry-meta clearfix">
 							<li><i class="icon-calendar3"></i> {{ post.date | date_to_long_string }}</li>
-							<li><a href="#"><i class="icon-user"></i> {{ post.author }}</a></li>
+							<li><a href="#"><i class="icon-user"></i> {{ page.author }}</a></li>
 							<li><i class="icon-folder-open"></i> 
 								<p class="tag-list">
 			    				   	{% for category in page.categories %}
@@ -74,6 +74,8 @@
 								<div class="tagcloud"><a href="{{ site.url }}/tim-kiem/?q={{ tag }}">{{ tag }}</a></div>
 							{% endfor %}
 	    	    		</p>
+
+	    	    		<div class="clear"></div>
 			
 						<p><strong><i>Nếu thấy bổ ích, đừng ngại:</i></strong></p>
 			
