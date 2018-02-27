@@ -66,24 +66,30 @@
 	    	    				</p>
 	    	    			</li>
 						</ul><!-- .entry-meta end -->
-					
-						{{ content }}
-		
-						<p class="tag-list">
-			    		   	{% for tag in page.tags %}
-								<div class="tagcloud"><a href="{{ site.url }}/tim-kiem/?q={{ tag }}">{{ tag }}</a></div>
-							{% endfor %}
-	    	    		</p>
+						
+						<!-- Entry Content
+						============================================= -->
+						<div class="entry-content notopmargin">
 
-	    	    		<div class="clear"></div>
-			
-						<p><strong><i>Nếu thấy bổ ích, đừng ngại:</i></strong></p>
-			
-						<div>
- 							<div class="fb-like" data-href="{{ post.url }}" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
- 			
-							<div class="fb-save" data-uri="{{ post.url }}" data-size="large"></div>
-						</div>
+							{{ content }}
+		
+							<p class="tag-list">
+			    			   	{% for tag in page.tags %}
+									<div class="tagcloud"><a href="{{ site.url }}/tim-kiem/?q={{ tag }}">{{ tag }}</a></div>
+								{% endfor %}
+	    	    			</p>
+	
+	    	    			<div class="clear"></div>
+				
+							<p><strong><i>Nếu thấy bổ ích, đừng ngại:</i></strong></p>
+				
+							<div>
+ 								<div class="fb-like" data-href="{{ post.url }}" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+ 				
+								<div class="fb-save" data-uri="{{ post.url }}" data-size="large"></div>
+							</div>
+							
+						</div><!-- .entry end -->
 			
 						<div class="line"></div>
 						
