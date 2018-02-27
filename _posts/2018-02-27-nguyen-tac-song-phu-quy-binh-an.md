@@ -3,6 +3,7 @@ layout: post
 title: "Nguyên tắc sống một đời phú quý, bình an"
 meta-title: "15+ Nguyên tắc sống một đời phú quý, bình an"
 h1-title: "Nguyên tắc sống một đời phú quý, bình an"
+h2-title: "15 nguyên tắc sống bất di bất dịch để sống một đời phú quý, bình an"
 description: ""
 meta-description: ""
 meta-keywords: "sống phú quý, bình an, nguyên tắc sống để đời bình an, nguyên tắc sống được phú quý"
@@ -18,8 +19,6 @@ author: Trọng Huỳnh
 ---
 
 
-## 15 NGUYÊN TẮC BẤT DI BẤT DỊCH ĐỂ SỐNG MỘT ĐỜI PHÚ QUÝ, BÌNH AN
----------------------------------
 
 <img  src="/media/images/blog/14-nguyen-tac-song-binh-an-2.jpg" alt="nguyên tắc dạy con" class="image_fade responsive-img lazy">
 

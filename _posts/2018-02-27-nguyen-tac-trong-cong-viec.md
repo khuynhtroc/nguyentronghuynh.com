@@ -3,6 +3,7 @@ layout: post
 title: "7 Nguyên tắc trong công việc"
 meta-title: "7 Nguyên tắc trong công việc"
 h1-title: "7 Nguyên tắc trong công việc"
+h2-title: "Dù bạn là chủ hay là nhân viên cũng nên xem clip này"
 description: ""
 meta-description: ""
 meta-keywords: "nguyên tắc trong công việc, nguyên tắc làm chủ, nguyên tắc làm nhân viên, chủ hay nhân viên cũng nên xem clip"
@@ -17,7 +18,6 @@ date: 2018-02-27
 author: Trọng Huỳnh
 ---
 
-## DÙ BẠN LÀ CHỦ HAY NHÂN VIÊN CŨNG NÊN XEM CLIP NÀY
 
 <iframe src="/media/video/du-la-chu-hay-nhan-vien-cung-nen-xem.mp4" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
