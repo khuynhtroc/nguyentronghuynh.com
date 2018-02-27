@@ -38,4 +38,4 @@ Dạy con là cả một quá trình mà sự kiên nhẫn của cha mẹ gần 
 
 Ai cũng yêu thương con mình cả. Nhưng dạy con là dạy cả mình nữa. Là bố mẹ, bạn đừng dạy con mình làm tổn thương người khác. Tất cả những đứa trẻ, đều như một tờ giấy trắng, đừng vì thương con mà dạy con ích kỷ, đừng dạy con đánh người. Một cái cây có thể tự lớn, nhưng để ra dáng đẹp, cũng cần uốn nắn nhiều.
 
-- ***Sưu tầm:*** `Mẹ bé Gạo`
+- Sưu tầm: ***Mẹ bé Gạo***
