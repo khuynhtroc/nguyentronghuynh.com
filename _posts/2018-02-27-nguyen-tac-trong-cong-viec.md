@@ -48,11 +48,11 @@ author: Trọng Huỳnh
 <i class="i-rounded i-bordered icon-meh"></i> 9. Người luôn cảm thấy sản phẩm của mình quá đắt. 
 <i class="i-rounded i-bordered icon-meh"></i> 10. Người luôn trách móc công ty.
 
-Nhậm Chính Phi, người sáng lập ra công ty HuaWei đã từng nói: “Có rất nhiều người hỏi tôi rằng, công ty có nghỉ cả thứ bảy và chủ nhật không? Có cần tăng ca không?”
+***Nhậm Chính Phi***, người sáng lập ra công ty **HuaWei** đã từng nói: “Có rất nhiều người hỏi tôi rằng, công ty có nghỉ cả thứ bảy và chủ nhật không? Có cần tăng ca không?”
 
 Khi ấy tôi chỉ cười mà không nói gì, khách sáo mời họ ra khỏi công ty. Đã muốn nhàn rỗi, sao còn đi làm? Ở nhà luôn có phải là được nghỉ cả tuần rồi không? 
 
-Là người, nếu không tranh thủ cố gắng khi còn trẻ, thế thì bạn có tuổi thanh xuân để làm gì?
+<blockquote>Là người, nếu không tranh thủ cố gắng khi còn trẻ, thế thì bạn có tuổi thanh xuân để làm gì?</blockquote>
 
 Người ta đều nói tuổi trẻ chính là vốn, tôi muốn bổ sung thêm là, chỉ khi phấn đấu, vốn liếng của bạn mới có giá trị, chỉ khi liều mạng, tuổi trẻ của bạn mới đáng để bạn tự hào.
 
