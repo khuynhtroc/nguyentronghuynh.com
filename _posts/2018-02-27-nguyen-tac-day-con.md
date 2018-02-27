@@ -3,6 +3,7 @@ layout: post
 title: "Những nguyên tắc dạy con bố mẹ cần khắc cốt ghi tâm"
 meta-title: "Những nguyên tắc dạy con bố mẹ cần khắc cốt ghi tâm"
 h1-title: "Những nguyên tắc dạy con bố mẹ cần khắc cốt ghi tâm"
+h2-title: "Nguyên tắc dạy con mà bố mẹ cần nhớ"
 description: ""
 meta-description: ""
 meta-keywords: "nguyên tắc dạy con, bố mẹ dạy con, dạy con như thế nào là tốt"
@@ -17,7 +18,6 @@ date: 2018-02-27
 author: Trọng Huỳnh
 ---
 
-## Nguyên tắc dạy con mà bố mẹ cần nhớ
 
 1. Không cho con thứ con **MUỐN**. Chỉ cho con thứ con **XỨNG ĐÁNG**.
 2. Không cho con khi con **ĐÒI HỎI**. Chỉ cho con khi con **XIN**.
