@@ -22,7 +22,6 @@ author: Trọng Huỳnh
 
 <img  src="/media/images/blog/14-nguyen-tac-song-binh-an-2.jpg" alt="nguyên tắc dạy con" class="image_fade responsive-img lazy">
 
-
 1. Làm người đừng quá gian trá. 
 
 Thế giới này rộng lớn tới vậy, vỏ quýt dày ắt có móng tay nhọn.
