@@ -8,7 +8,7 @@ meta-description: ""
 meta-keywords: "nguyên tắc trong công việc, nguyên tắc làm chủ, nguyên tắc làm nhân viên, chủ hay nhân viên cũng nên xem clip"
 categories: blog ky-nang-mem
 category: ky-nang-mem
-tags: hiểu-đời kỹ-năng-mềm
+tags: nguyên-tắc-công-việc làm-chủ-hay-nhân-viên
 permalink: "/ky-nang-mem/nguyen-tac-trong-cong-viec.html"
 published: true
 sitemap: true
