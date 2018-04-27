@@ -9,7 +9,6 @@ meta-keywords: "hiểu đời, kỹ năng mềm, chế độ sinh hoạt tốt, 
 date: 2018-02-13 13:26:16 +0800
 categories: Living
 tags: discord game yy
-permalink: "/ky-nang-mem/hieu-doi.html"
 published: true
 sitemap: true
 img: https://i.loli.net/2018/02/13/5a8299ad7dff9.png
