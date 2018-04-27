@@ -1,10 +1,49 @@
-title: "Jekyll-Theme-MDUI"
-description: "A Jekyll theme based on MDUI"
-url: 
-baseurl: ""
+name: "Trọng Huỳnh"
+title: "Nguyễn Trọng Huỳnh"
+description: "My Blog"
+url: "https://nguyentronghuynh.com"
+baseurl: "https://nguyentronghuynh.com"
 author: "KeJun"
+email: "khuynhtroc@gmail.com"
+
+allow_search_engine: true
+paypal: ""
+google_verify: ""
+bing_verify: 
+google_analytics: ""
+google_tag_manager_id: ""
+google_plus: 
+subcriber_url: ""
+
+# Build Settings
+markdown: "kramdown"
+highlighter: rouge
+encoding: "UTF-8"
+support_url: "https://nguyentronghuynh.com/lien-he/"
+# kramdown:
+#   input: GFM
+#   syntax_highlighter: rouge
+#   auto_ids: true
+#   footnote_nr: 1
+#   entity_output: as_char
+#   toc_levels: 1..6
+#   use_coderay: false
+  # coderay:
+  #   coderay_line_numbers: nil
+  #   coderay_line_numbers_start: 1
+  #   coderay_tab_width: 4
+  #   coderay_bold_every: 10
+  #   coderay_css: class
+
+# http://jekyllrb.com/docs/permalinks/
+# /:title/ /:title.html
+permalink:   "/:categories/:title/"
+
+# Amount of post to show on home page
 paginate: 5
 paginate_path: "/blog/page:num/"
+
+future: true
 
 plugins:
   - jekyll-sitemap
