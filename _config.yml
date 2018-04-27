@@ -1,8 +1,8 @@
-title: "Jekyll-Theme-MDUI"
-description: "A Jekyll theme based on MDUI"
+title: "Nguyễn Trọng Huỳnh"
+description: "My Blog"
 url: 
 baseurl: ""
-author: "KeJun"
+author: "Huỳnh Trọc"
 paginate: 5
 paginate_path: "/blog/page:num/"
 
