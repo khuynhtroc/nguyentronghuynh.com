@@ -7,3 +7,8 @@
   image: 
   url: https://www.mdui.org/
   describe: 一套用于开发 Material Design 网页的前端框架
+
+- name: Trọng Huỳnh
+  image: "{{ site.url }}/assets/images/author/trong-huynh.png"
+  url: https://nguyentronghuynh.com
+  describe: Thích giao tiếp, chia sẻ!

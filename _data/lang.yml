@@ -78,11 +78,11 @@ en-US:
       toQq: "Share to QQ"
       toTelegram: "Share to Telegram"
 
-TEST:
+vi-VN:
    meng:
       head_card: 
-          rss: "TEST"
-          sitemap: "TEST"
+          rss: "RSS"
+          sitemap: "Sitemap"
    editor: 
       content: "TEST"
       frontmatter:
