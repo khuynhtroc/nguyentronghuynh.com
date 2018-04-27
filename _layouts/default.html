@@ -1,54 +1,50 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
-<html dir="ltr" lang="vi-VN">
-<head>
-	{% include head.html %}
-
-</head>
-
-<body class="no-transition stretched sticky-responsive-menu">
-
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		{% include header.html %}
-
-		<section id="page-title">
-  
-        	<div class="container clearfix">
-        	  	<h1>{{ page.title }}</h1>
-        	  	<span>{{ page.description }}</span>
-        	</div>
-        	<div class="container clearfix">
-        	  	<ol class="breadcrumb">
-        	    	<li><a href="{{ site.url }}">Trang chủ</a></li>
-        	    	<li class="active"><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></li>
-        	  	</ol>
-        	</div>
-  
-      	</section>
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-
-			<div class="content-wrap">
-
-				{{ content }}
-
-			</div>
-
-		</section><!-- #content end -->
-
-		{% include footer.html %}
-
-	</div><!-- #wrapper end -->
-
-
-	{% include script.html %}
-
-	{% include footer_script.html %}
-
-</body>
+<html lang="{{site.data.site.lang}}">
+    {% include head.html %}
+    <body>
+        {% include component/totop.html %}
+        {% include header/header.html %}
+        <div class="mdui-container container">
+            <section class="content">
+                {{ content }}
+            </section>
+        </div>
+        {% if site.data.site.google_analytics != "" %}
+        {% include analytics/google.html %}
+        {% endif %}
+        {% if site.data.site.baidu_auto_push == true %}
+        {% include submission/baidu.html %}
+        {% endif %}
+        {% include component/sw.html %}
+        {% include component/customCssJS.html %}
+        {% include footer/footer.html %}
+        {% if site.data.site.uiux.meng == true%}
+            {% if site.data.meng.live2d.switch == true %}
+                {% include meng/live2d.html %}
+            {% endif %}
+            {% if site.data.meng.title.switch == true %}
+                {% include meng/title.html %}
+            {% endif %}
+            {% if site.data.meng.cursor.switch == true %}
+                {% include meng/cursor.html %}
+            {% endif %}
+            {% if site.data.meng.console.switch == true %}
+                {% include meng/console.html %}
+            {% endif %}
+            {% if site.data.meng.background.switch == true %}
+                {% include meng/background.html %}
+            {% endif %}
+            {% if site.data.meng.card.switch == true %}
+                {% include meng/card.html %}
+            {% endif %}
+            {% if site.data.meng.music_player.player == "cplayer" %}
+                {% include meng/cplayer.html %}
+            {% elsif  site.data.meng.music_player.player == "aplayer"%}
+                {% include meng/aplayer.html %}
+            {% endif %}
+        {% endif %}
+    </body>
 </html>
