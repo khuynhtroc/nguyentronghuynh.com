@@ -1,24 +1,44 @@
-<div class="header clearfix">   
-    <div class="header-left">
-        <ul class="clearfix">
-            <li class="menu-1 selected"><a class="df" href="/" title="Trang chủ">TRANG CHỦ</a></li>
-            <li class="menu-23 "><a class="df" href="/vi-tri/" title="Vị trí">VỊ TRÍ</a></li>
-            <li class="menu-25 "><a class="df" href="/mat-bang-thiet-ke/" title="Mặt bằng">MẶT BẰNG</a></li>
-            <li class="menu-26 "><a class="df" href="/noi-that/" title="Nội thất">NỘI THẤT</a></li>
-        </ul>
+<header id="header" id="home">
+    <div class="container header-top">
+        <div class="row">
+            <div class="col-6 top-head-left">                           
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-6 top-head-right">
+                <ul>
+                    <li><a href="tel:0985629621"><span>0985.629.621</span> <span class="lnr lnr-phone-handset"></span></a></li>
+                    <li><a href="mailto:khuynhtroc@gmail.com"><span>khuynhtroc@gmail.com</span> <span class="lnr lnr-bubble"></span></a></li>
+                </ul>
+            </div>                      
+        </div>
     </div>
-    <a class="logo" href="/">
-        <img alt="Dự án B6 Giảng Võ" src="{{ site.url }}/assets/img/logo.png" />
-    </a>
-    
-    <div class="header-right">
-        <ul class="clearfix">
-            <li class="menu-24 "><a class="df" href="/tien-ich/" title="Tiện ích">TIỆN ÍCH</a></li>
-            <li class="menu-27 "><a class="df" href="/chinh-sach-ban-hang/" title="Chính sách">CHÍNH SÁCH</a></li>
-            <li class="menu-29 "><a class="df" href="/tin-tuc.html" title="Tin tức">TIN TỨC</a></li>
-            <li class="menu-30 "><a class="df" href="/lien-he.html" title="Liên hệ">LIÊN HỆ</a></li>
-        </ul>
+    <hr>
+    <div class="container">
+        <div class="row align-items-center justify-content-between d-flex">
+          <div id="logo">
+            <a href="/"><img src="img/logo.png" alt="" title="" /></a>
+          </div>
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+              <li class="menu-active"><a href="/">TRANG CHỦ</a></li>
+              <li><a href="about.html">GIỚI THIỆU</a></li>
+              <li><a href="service.html">DỊCH VỤ</a></li>
+              <li><a href="team.html">FRIENDS</a></li>
+              <li><a href="blog-home.html">BLOG</a></li>    
+              <li><a href="contact.html">LIÊN HỆ</a></li>   
+              <li class="menu-has-children"><a href="">TRANG</a>
+                <ul>
+                  <li><a href="blog-single.html">blog Single</a></li>
+                  <li><a href="elements.html">Elements</a></li>
+                </ul>
+              </li>                   
+            </ul>
+          </nav><!-- #nav-menu-container -->                    
+        </div>
     </div>
-    <span class="hotline-mainmenu"><a href="tel:0944326836">0944.326.836</a></span>
-    <span id="menu-mobile"></span>
-</div><!--End header--> 
+</header><!-- #header -->
