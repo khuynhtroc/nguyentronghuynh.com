@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="vi-VN">
+<head>
+	{% include head.html %}
+</head>
+
+<body>
+
+	<div class="body-website">
+
+		{% include header.html %}
+
+		<div class="container">
+
+			{{ content }}
+
+		</div><!--End container-->
+
+		{% include form.html %}
+
+		{% include footer.html %}
+
+	</div><!--End body-website-->
+
+	{% include header_mobile.html %}
+
+	{% include script.html %}
+
+	{% include footer_script.html %}
+
+</body>
+</html>

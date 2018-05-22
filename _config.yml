@@ -1,0 +1,55 @@
+name: "B6 Giảng Võ"
+title: "B6 Giảng Võ"
+slogan: "B6 Giảng Võ"
+email: contact@b6giangvo.info
+description: ""
+url: "https://b6giangvo.info"
+base url: "https://b6giangvo.info"
+allow_search_engine: true
+google_verify: ""
+bing_verify: ""
+google_analytics: "UA-XXXXXXXX-X"
+google_plus: ""
+disqus_shortname: ""
+
+# Build Settings
+markdown: "kramdown"
+encoding: "UTF-8"
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+# http://jekyllrb.com/docs/permalinks/
+# /:title/ /:title.html
+permalink:   "/:categories/:title/"
+
+# Amount of post to show on home page
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+future: true
+highlighter: rouge
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-paginate
+  # http://jekyllrb.com/docs/templates/#gist
+  # - jekyll-gist
+  # - jekyll-less
+include: [".htaccess", "LICENSE.txt", "*.woff", "*.ttf"]
+exclude: ["_site", lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "vendor"]
+collections:
+  pages:
+    output: true
+
+
