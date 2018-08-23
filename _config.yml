@@ -8,7 +8,7 @@ base url: "https://nguyentronghuynh.com"
 allow_search_engine: false
 google_verify: ""
 bing_verify: ""
-google_analytics: "UA-XXXXXXXX-X"
+google_analytics: ""
 google_plus: ""
 disqus_shortname: ""
 
