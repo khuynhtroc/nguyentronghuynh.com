@@ -1,51 +1,36 @@
 <header id="header" id="home">
-    <div class="container header-top">
-        <div class="row">
-            <div class="col-6 top-head-left">                           
-                <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                </ul>
-            </div>
-            <div class="col-6 top-head-right">
-                <ul>
-                    <li><a href="tel:0985629621"><span>0985.629.621</span> <span class="lnr lnr-phone-handset"></span></a></li>
-                    <li><a href="mailto:khuynhtroc@gmail.com"><span>khuynhtroc@gmail.com</span> <span class="lnr lnr-bubble"></span></a></li>
-                </ul>
-            </div>                      
-        </div>
-    </div>
-    <hr>
-    <div class="container">
-        <div class="row align-items-center justify-content-between d-flex">
-          <div id="logo">
-            <a href="/"><img src="img/logo.png" alt="" title="" /></a>
-          </div>
-          <nav id="nav-menu-container">
-            <ul class="nav-menu">
-              <li class="menu-active"><a href="/">TRANG CHỦ</a></li>
-              <li><a href="about.html">GIỚI THIỆU</a></li>
-              <li><a href="service.html">DỊCH VỤ</a></li>
-              <li><a href="team.html">FRIENDS</a></li>
-              <li><a href="blog-home.html">BLOG</a></li>    
-              <li><a href="contact.html">LIÊN HỆ</a></li>   
-              <li class="menu-has-children"><a href="">TRANG</a>
-                <ul>
-                  <li><a href="blog-single.html">blog Single</a></li>
-                  <li><a href="#">Quản trị website</a></li>
-                  <li><a href="#">Thiết kế đồ họa</a></li>
-                  <li><a href="#">Thiết kế logo</a></li>
-                  <li><a href="#">Thiết kế website</a></li>
-                  <li><a href="#">Quảng Cáo Google</a></li>
-                  <li><a href="#">Quảng cáo Facebook</a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                </ul>
-              </li>                   
-            </ul>
-          </nav><!-- #nav-menu-container -->                    
-        </div>
-    </div>
+  <div class="container main-menu">
+    <div class="row align-items-center justify-content-between d-flex">
+      <div id="logo">
+        <a href="{{ site.url }}"><img src="{{ site.url }}/assets/img/logo.png" alt="" title="" /></a>
+      </div>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="/">TRANG CHỦ</a></li>
+          <li><a href="{{ site.url }}/assets/about.html">GIỚI THIỆU</a></li>
+          <li><a href="{{ site.url }}/assets/service.html">DỊCH VỤ</a></li>
+          <li><a href="{{ site.url }}/assets/products.html">Products</a></li>
+          <li class="menu-has-children"><a href="">Blog</a>
+          <ul>
+            <li><a href="{{ site.url }}/assets/blog-home.html">BLOG</a></li>
+            <li><a href="{{ site.url }}/assets/blog-single.html">Blog Single</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">LIÊN HỆ</a></li>
+        <li class="menu-has-children"><a href="">Dropdown</a>
+        <ul>
+          <li><a href="{{ site.url }}/assets/elements.html">Elements</a></li>
+          <li><a href="{{ site.url }}/assets/product-details.html">Product Details</a></li>
+          <li class="menu-has-children"><a href="">Level 2</a>
+          <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  </nav><!-- #nav-menu-container -->
+</div>
+</div>
 </header><!-- #header -->

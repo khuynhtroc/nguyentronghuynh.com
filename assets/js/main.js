@@ -15,29 +15,33 @@ $(document).ready(function(){
      if(document.getElementById("default-select")){
           $('select').niceSelect();
     };
+     if(document.getElementById("service-select")){
+          $('select').niceSelect();
+    };    
 
-    $('.img-pop-up').magnificPopup({
+    $('.img-gal').magnificPopup({
         type: 'image',
         gallery:{
         enabled:true
         }
     });
 
-    $('.single-gallery').magnificPopup({
-        type: 'image',
-        gallery:{
-        enabled:true
-        }
+
+    $('.play-btn').magnificPopup({
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false
     });
 
+    
+  //  Counter Js 
 
-    //  Counter Js 
-     if(document.getElementById("facts-area")){
-      $('.counter').counterUp({
-          delay: 10,
-          time: 1000
-      });
-    }
+  $('.counter').counterUp({
+      delay: 10,
+      time: 1000
+  });
 
 
   // Initiate superfish on nav menu
@@ -135,7 +139,7 @@ $(document).ready(function(){
 
         $('html, body').animate({
 
-        scrollTop: $(window.location.hash).offset().top-100
+        scrollTop: $(window.location.hash).offset().top-108
 
         }, 1000)
 
@@ -159,22 +163,132 @@ $(document).ready(function(){
     } else {
       $('#header').removeClass('header-scrolled');
     }
-  })
+  });
+
+
+    $('.active-realated-carusel').owlCarousel({
+        items:1,
+        loop:true,
+        margin: 100,
+        dots: true,
+        nav:true,
+        navText: ["<span class='lnr lnr-arrow-up'></span>","<span class='lnr lnr-arrow-down'></span>"],                
+        autoplay:true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1,
+            },
+            768: {
+                items: 1,
+            }
+        }
+    });
 
 
     $('.active-about-carusel').owlCarousel({
         items:1,
         loop:true,
+        margin: 100,
+        nav:true,
+        navText: ["<span class='lnr lnr-arrow-up'></span>",
+        "<span class='lnr lnr-arrow-down'></span>"],
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1,
+            },
+            768: {
+                items: 1,
+            }
+        }
+    });
+
+
+    $('.active-review-carusel').owlCarousel({
+        items:1,
+        loop:true,
+        autoplay:true,
         margin:30,
         dots: true
     });
 
-    $('.active-exibition-carusel').owlCarousel({
-        items:3,
-        margin:30,
-        autoplay:true,
+    $('.active-info-carusel').owlCarousel({
+        items:1,
         loop:true,
-        dots: true,       
+        margin: 100, 
+        dots: true,    
+        autoplay:true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1,
+            },
+            768: {
+                items: 1,
+            }
+        }
+    });
+
+
+    $('.active-testimonial').owlCarousel({
+        items:2,
+        loop:true,
+        margin: 30,
+        dots: true,
+        autoplay:true,
+        nav:true,
+        navText: ["<span class='lnr lnr-arrow-up'></span>","<span class='lnr lnr-arrow-down'></span>"],        
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1,
+            },
+            768: {
+                items: 2,
+            }
+        }
+    });
+
+
+        $('.active-testimonials-slider').owlCarousel({
+        items:3,
+        loop:true,
+        margin: 30,
+        dots: true,
+        autoplay:true,    
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1,
+            },
+            768: {
+                items: 2,
+            },
+            801: {
+                items: 3,
+            }            
+        }
+    });
+
+
+    $('.active-fixed-slider').owlCarousel({
+        items:3,
+        loop:true,
+        dots: true,
+        nav:true,
+        navText: ["<span class='lnr lnr-arrow-up'></span>",
+        "<span class='lnr lnr-arrow-down'></span>"],        
             responsive: {
             0: {
                 items: 1
@@ -193,7 +307,6 @@ $(document).ready(function(){
     });
 
 
-       
 
 
     //  Start Google map 

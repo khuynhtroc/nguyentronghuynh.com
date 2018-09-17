@@ -1,14 +1,14 @@
 name: "B6 Giảng Võ"
 title: "B6 Giảng Võ"
 slogan: "B6 Giảng Võ"
-email: info@nguyentronghuynh.com
+email: contact@b6giangvo.info
 description: ""
-url: "https://nguyentronghuynh.com"
-base url: "https://nguyentronghuynh.com"
-allow_search_engine: false
+url: "https://b6giangvo.info"
+base url: "https://b6giangvo.info"
+allow_search_engine: true
 google_verify: ""
 bing_verify: ""
-google_analytics: ""
+google_analytics: "UA-XXXXXXXX-X"
 google_plus: ""
 disqus_shortname: ""
 
