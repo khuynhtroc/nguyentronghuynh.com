@@ -75,89 +75,74 @@
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								About Us				
+								Contact Us				
 							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.html"> About Us</a></p>
+							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="contact.html"> Contact Us</a></p>
 						</div>	
 					</div>
 				</div>
 			</section>
-			<!-- End banner Area -->	
+			<!-- End banner Area -->				  
 
-			<!-- Start about-video Area -->
-			<section class="about-video-area section-gap">
+			<!-- Start contact-page Area -->
+			<section class="contact-page-area section-gap">
 				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-6 about-video-left">
-							<h6 class="text-uppercase">Brand new app to blow your mind</h6>
-							<h1>
-								We’ve made a life <br>
-								that will change you 
-							</h1>
-							<p>
-								<span>We are here to listen from you deliver exellence</span>
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-							<a class="primary-btn" href="#">Get Started Now</a>
+					<div class="row">
+						<div class="map-wrap" style="width:100%; height: 445px;" id="map"></div>
+						<div class="col-lg-4 d-flex flex-column address-wrap">
+							<div class="single-contact-address d-flex flex-row">
+								<div class="icon">
+									<span class="lnr lnr-home"></span>
+								</div>
+								<div class="contact-details">
+									<h5>Dhaka, Bangladesh</h5>
+									<p>56/8, West Panthapath</p>
+								</div>
+							</div>
+							<div class="single-contact-address d-flex flex-row">
+								<div class="icon">
+									<span class="lnr lnr-phone-handset"></span>
+								</div>
+								<div class="contact-details">
+									<h5>00 (880) 9865 562</h5>
+									<p>Mon to Fri 9am to 6 pm</p>
+								</div>
+							</div>
+							<div class="single-contact-address d-flex flex-row">
+								<div class="icon">
+									<span class="lnr lnr-envelope"></span>
+								</div>
+								<div class="contact-details">
+									<h5>support@codethemes.com</h5>
+									<p>Send us your query anytime!</p>
+								</div>
+							</div>														
 						</div>
-						<div class="col-lg-6 about-video-right justify-content-center align-items-center d-flex relative">
-							<div class="overlay overlay-bg"></div>
-							<a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid mx-auto" src="img/play-btn.png" alt=""></a>
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End about-video Area -->			
+						<div class="col-lg-8">
+							<form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
+								<div class="row">	
+									<div class="col-lg-6 form-group">
+										<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
+									
+										<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
 
-			<!-- Start home-about Area -->
-			<section class="home-about-area">
-				<div class="container-fluid">
-					<div class="row align-items-center">
-						<div class="col-lg-6 home-about-left no-padding">
-							<img class="mx-auto d-block img-fluid" src="img/about-img.png" alt="">
-						</div>
-						<div class="col-lg-6 home-about-right no-padding">
-							<h1>Globally Connected <br>
-							by Large Network</h1>
-							<h5>
-								We are here to listen from you deliver exellence
-							</h5>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-							</p>
-							<a class="primary-btn text-uppercase" href="#">Get Details</a>
+										<input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text">
+									</div>
+									<div class="col-lg-6 form-group">
+										<textarea class="common-textarea form-control" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>						
+									</div>
+									<div class="col-lg-12 d-flex justify-content-between">
+										<div class="alert-msg" style="text-align: left;"></div>
+										<button class="genric-btn primary circle" style="float: right;">Send Message</button>		
+									</div>
+								</div>
+							</form>	
 						</div>
 					</div>
 				</div>	
 			</section>
-			<!-- End home-about Area -->
+			<!-- End contact-page Area -->
 
-			<!-- Start brand Area -->
-			<section class="brand-area section-gap">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col single-brand">
-							<img class="img-fluid" src="img/l1.png" alt="">
-						</div>
-						<div class="col single-brand">
-							<img class="img-fluid" src="img/l2.png" alt="">
-						</div>
-						<div class="col single-brand">
-							<img class="img-fluid" src="img/l3.png" alt="">
-						</div>
-						<div class="col single-brand">
-							<img class="img-fluid" src="img/l4.png" alt="">
-						</div>
-						<div class="col single-brand">
-							<img class="img-fluid" src="img/l5.png" alt="">
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End brand Area -->			
-				
 			<!-- start footer Area -->		
 			<footer class="footer-area section-gap">
 				<div class="container">
@@ -247,5 +232,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<script src="js/main.js"></script>	
 		</body>
 	</html>
+
 
 
