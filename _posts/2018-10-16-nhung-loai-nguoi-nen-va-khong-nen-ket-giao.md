@@ -6,7 +6,7 @@ meta-title: "Những loại người nên và không nên kết giao trong xã h
 description: ""
 meta-description: ""
 meta-keywords: ""
-permalink: "/nhung-loai-nguoi-nen-va-khong-nen-ket-giao.html"
+permalink: "/blog/nhung-loai-nguoi-nen-va-khong-nen-ket-giao.html"
 published: true
 sitemap: true
 image: "images/blog/nhung-loai-nguoi-nen-va-khong-nen-ket-giao.jpg"
