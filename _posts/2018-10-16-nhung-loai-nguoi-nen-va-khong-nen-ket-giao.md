@@ -9,6 +9,8 @@ meta-keywords: ""
 permalink: "/blog/nhung-loai-nguoi-nen-va-khong-nen-ket-giao.html"
 published: true
 sitemap: true
+categories: blog
+category:
 image: "images/blog/nhung-loai-nguoi-nen-va-khong-nen-ket-giao.jpg"
 ---
 
