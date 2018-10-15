@@ -17,7 +17,7 @@
             <div class="row d-flex align-items-center justify-content-center">
                 <div class="about-content col-lg-12">
                     <h1 class="text-white">{{ page.title }}</h1>   
-                    <p class="text-white link-nav"><a href="index.html">Trang chủ </a>  <span class="lnr lnr-arrow-right"></span>  <a href="{{ site.url }}{{ page.url }}"> My Blog</a>  <span class="lnr lnr-arrow-right"></span>  <a href="{{ site.url }}{{ page.url }}"> {{ page.title }}</a></p>
+                    <p class="text-white link-nav"><a href="{{ site.url }}">Trang chủ </a>  <span class="lnr lnr-arrow-right"></span>  <a href="{{ site.url }}{{ page.url }}"> My Blog</a>  <span class="lnr lnr-arrow-right"></span>  <a href="{{ site.url }}{{ page.url }}"> {{ page.title }}</a></p>
                 </div>                                          
             </div>
         </div>
@@ -30,7 +30,7 @@
 			<div class="row">
 				<div class="col-lg-8 post-list blog-post-list">
 					<div class="single-post">
-						<img class="img-fluid" src="{{ site.url }}/{{ post.image }}" alt="{{ page.title }}">
+						<img class="img-fluid" src="{{ site.url }}/{{ page.image }}" alt="{{ page.title }}">
 						<!--ul class="tags">
 							<li><a href="#">Art,</a></li>
 							<li><a href="#">Technology,</a></li>
