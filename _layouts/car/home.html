@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="vi-VN">
+<head>
+
+	{% include car/head.html %}
+
+</head>
+
+<body class="stretched side-push-panel" data-loader-html="<div><img src='{{ site.url }}car/assets/media/page-loader.gif' alt='Loader'></div>">
+
+	<!-- Side Panel Overlay -->
+	<div class="body-overlay"></div>
+
+	{% include car/site_panel.html %}
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		{% include car/header.html %}
+
+		{% include car/slider.html %}
+
+		<!-- Content
+		============================================= -->
+		<section id="content" class="clearfix">
+
+			{{ content }}
+
+		</section><!-- #content end -->
+
+		{% include car/footer.html %}
+
+	</div><!-- #wrapper end -->
+
+	{% include car/footer_script.html %}
+
+</body>
+</html>
