@@ -1,3 +1,18 @@
-# robotstxt.org/
+---
+layout: null
+---
+User-Agent: *
+Disallow: /wp-admin
+Disallow: /wp-content/
 
-User-agent: /
+{% if site.allow_search_engine == "false" %}
+User-Agent: *
+Disallow: /
+Disallow: /*
+
+{% endif %}
+
+User-agent: AhrefsBot
+Disallow: /
+
+Sitemap: {{ site.url }}/sitemap.xml

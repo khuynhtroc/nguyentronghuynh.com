@@ -1,20 +1,37 @@
 <!DOCTYPE html>
-<html lang="vi-VN" class="no-js">
+<html dir="ltr" lang="vi-VN">
 <head>
 
 	{% include head.html %}
 
 </head>
 
-<body>
+<body class="stretched side-push-panel" data-loader-html="<div><img src='assets/media/page-loader.gif' alt='Loader'></div>">
 
-	{% include header.html %}
+	<!-- Side Panel Overlay -->
+	<div class="body-overlay"></div>
 
-	{% include banner.html %}
+	{% include site_panel.html %}
 
-	{{ content }}
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
 
-	{% include footer.html %}
+		{% include header.html %}
+
+		{% include slider.html %}
+
+		<!-- Content
+		============================================= -->
+		<section id="content" class="clearfix">
+
+			{{ content }}
+
+		</section><!-- #content end -->
+
+		{% include footer.html %}
+
+	</div><!-- #wrapper end -->
 
 	{% include footer_script.html %}
 
