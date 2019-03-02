@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="vi-VN">
+<head>
+
+	{% include car/head.html %}
+
+</head>
+
+<body class="stretched side-push-panel" data-loader-html="<div><img src='{{ site.url }}/car/assets/media/page-loader.gif' alt='Loader'></div>">
+
+	<!-- Side Panel Overlay -->
+	<div class="body-overlay"></div>
+
+	{% include car/site_panel.html %}
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		{% include car/header.html %}
+
+		{% include car/product/vios_slider.html %}
+
+		{% include car/product/vios_menu.html %}
+
+		<!-- Content
+		============================================= -->
+		<section id="content" class="clearfix">
+
+			{{ content }}
+
+		</section><!-- #content end -->
+
+		{% include car/footer.html %}
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+	<!-- Contact Button
+	============================================= -->
+	<div id="contact-me" class="icon-line-mail side-panel-trigger bgcolor"></div>
+	<!-- External JavaScripts
+	============================================= -->
+	<script src="{{ site.url }}/car/assets/js/jquery.js"></script>
+	<script src="{{ site.url }}/car/assets/js/plugins.js"></script>
+
+	<script src="https://maps.google.com/maps/api/js?key=YOUR_API_KEY"></script>
+	<script src="{{ site.url }}/car/assets/js/jquery.gmap.js"></script>
+
+	{% include car/footer_script.html %}
+
+	{% include car/script_maps.html %}
+
+</body>
+</html>
