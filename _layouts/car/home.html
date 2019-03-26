@@ -58,7 +58,7 @@
 	{% include car/script_revolution_slider.html %}
 
 	{% include car/footer_script.html %}
-	
+
 	<script>
 
 		//Car Appear In View
@@ -93,7 +93,7 @@
 				currentFrame: 3, // This the start frame for auto spin
 				imgList: '.threesixty_images', // selector for image list
 				progress: '.spinner', // selector to show the loading progress
-				imagePath:'demos/car/images/360degree-cars/', // path of the image assets
+				imagePath:'car/assets/media/360degree-cars/', // path of the image assets
 				filePrefix: '', // file prefix if any
 				ext: '.png', // extention for the assets
 				height: 887,
@@ -112,7 +112,7 @@
 			}else{
 				revapi424 = tpj("#rev_slider_424_1").show().revolution({
 					sliderType:"carousel",
-					jsFileLocation:"include/rs-plugin/js/",
+					jsFileLocation:"car/assets/include/rs-plugin/js/",
 					sliderLayout:"auto",
 					dottedOverlay:"none",
 					delay:7000,
