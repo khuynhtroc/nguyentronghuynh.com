@@ -9,6 +9,7 @@ allow_search_engine: false
 google_verify: "v6zpRiKh3pXEGi47WklDPdIR6V28K-6whJLinfI_HLM"
 bing_verify: ""
 google_analytics: "UA-137398840-1"
+google_tag_manager_id: "GTM-N7VBGX6"
 google_plus: ""
 disqus_shortname: ""
 
