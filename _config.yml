@@ -5,7 +5,7 @@ email: info@nguyentronghuynh.com
 description: ""
 url: "https://nguyentronghuynh.com"
 base url: "https://nguyentronghuynh.com"
-allow_search_engine: false
+allow_search_engine: true
 google_verify: "v6zpRiKh3pXEGi47WklDPdIR6V28K-6whJLinfI_HLM"
 bing_verify: ""
 google_analytics: "UA-137398840-1"
