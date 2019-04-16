@@ -9,7 +9,7 @@ meta-keywords: ""
 permalink: "/car/toyota-camry-2019-nhap-khau-thai-lan-va-thong-so-chi-tiet.html"
 published: true
 sitemap: true
-categories: car-news
+categories: car-news hot
 category: car-news
 image: "images/car/news/toyota-camry-2019-nguyentronghuynh.com.jpg"
 ---
