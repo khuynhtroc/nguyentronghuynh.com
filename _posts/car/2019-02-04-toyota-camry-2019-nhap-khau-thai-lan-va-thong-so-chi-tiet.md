@@ -2,7 +2,7 @@
 layout: car/post
 title: "Toyota Camry 2019 nhập khẩu Thái Lan và những thông số chi tiết đẳng cấp nhất phân khúc"
 h1-title: "Toyota Camry 2019 nhập khẩu Thái Lan và những thông số chi tiết đẳng cấp nhất phân khúc"
-meta-title: "Toyota Camry 2019 nhập khẩu Thái Lan và những thông số chi tiết đẳng cấp nhất phân khúc"
+meta-title: "Toyota Camry 2019 nhập khẩu Thái Lan đẳng cấp nhất phân khúc"
 description: ""
 meta-description: ""
 meta-keywords: ""
