@@ -30,21 +30,23 @@ sitemap: true
 						</div>
 					</div>
 					<div class="row">
+						{% for post in site.categories.car-news %}
 						<div class="col-md-4 mb-4">
 							<div class="card shadow-sm">
 								<img class="card-img-top" src="{{ site.url }}/car/assets/media/single/911cars/1.jpg" alt="Card image cap">
 								<div class="card-body">
-									<strong class="d-inline-block mb-2 text-black-50">World</strong>
-									<h4 class="mb-2 t600 uppercase"><a class="text-dark" href="#">Volkswagen’s Pikes Ppeak racer is a 680 HPAV</a></h4>
-									<a href="#" class="card-link">Auto Expo</a>
-									<a href="#" class="card-link">Nov 12, 2018</a>
-									<p class="card-text my-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									<a href="#" class="button button-3d button-rounded nott t600 ls0 nomargin">Continue reading..</a>
+									<!--strong class="d-inline-block mb-2 text-black-50">{{ post.category }}</strong-->
+									<h4 class="mb-2 t600 uppercase"><a class="text-dark" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h4>
+									<!--a href="#" class="card-link">Auto Expo</a>
+									<a href="#" class="card-link">Nov 12, 2018</a-->
+									<!--p class="card-text my-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p-->
+									<a href="{{ site.url }}{{ post.url }}" class="button button-3d button-rounded nott t600 ls0 nomargin">Xem thêm...</a>
 								</div>
 							</div>
 						</div>
+						{% endfor %}
 
-						<div class="col-md-4 mb-4">
+						<!--div class="col-md-4 mb-4">
 							<div class="card shadow-sm">
 								<img class="card-img-top" src="{{ site.url }}/car/assets/media/single/911cars/2.jpg" alt="Card image cap">
 								<div class="card-body">
@@ -111,7 +113,7 @@ sitemap: true
 							</div>
 						</div>
 
-					</div>
+					</div-->
 
 					<ul class="pagination mt-1 mb-0 clearfix">
 						<li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
