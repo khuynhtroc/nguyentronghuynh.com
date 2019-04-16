@@ -10,6 +10,14 @@
 
 	{% include car/head_style.html %}
 
+	<style type="text/css">
+		#page-title:hover .video-wrap,
+		#page-title:hover .container {
+			opacity: 0;
+			z-index: -99;
+		}
+	</style>
+
 </head>
 
 <body class="stretched side-push-panel" data-loader-html="<div><img src='{{ site.url }}/car/assets/media/page-loader.gif' alt='Loader'></div>">
