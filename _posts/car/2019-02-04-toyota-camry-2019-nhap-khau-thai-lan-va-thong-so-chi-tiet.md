@@ -18,7 +18,7 @@ image: "images/car/news/toyota-camry-2019-nguyentronghuynh.com.jpg"
 
 ![Toyota Camry 2019]({{ site.url }}/images/car/news/toyota-camry-2019-nguyentronghuynh.com1.jpg)
 
-Một chiếc Toyota Camry 2019 nhập khẩu được cho biết xuất hiện trong sự kiện nội bộ dành cho các đại lý. Trước đó, đã có 2 chiếc khác lộ diện trong kho của Toyota với 2 màu trắng và đen. Chiếc xe này mang màu đỏ, giống phiên bản được giới thiệu tại Singapore gần đây.
+Một chiếc Toyota Camry 2019 nhập khẩu được cho biết xuất hiện trong sự kiện nội bộ dành cho các đại lý [Toyota Thái Hòa Từ Liêm]({{ site.url }}/car/). Trước đó, đã có 2 chiếc khác lộ diện trong kho của Toyota với 2 màu trắng và đen. Chiếc xe này mang màu đỏ, giống phiên bản được giới thiệu tại Singapore gần đây.
 
 ![Toyota Camry 2019]({{ site.url }}/images/car/news/toyota-camry-2019-nguyentronghuynh.com2.jpg)
 
