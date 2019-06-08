@@ -41,4 +41,4 @@ Fortuner phiên bản cải tiến 2019 sẽ chính thức có mặt tại tất
 ![Toyota Fotuner 2019]({{ site.url }}/images/car/news/fotuner-toyota-thai-hoa-tu-liem.jpg)
 
 Hiện Toyota Thái Hòa sẽ phân phối Fortuner 2019 lắp ráp trong nước giao trong tháng 06/2019. 
-Liên hệ để nhận tư vấn và báo giá xe Camry nhập khẩu Thái Lan tốt nhất toàn quốc tại Toyota Thái Hòa Từ Liêm qua Hotline : [0985.629.621](tel:0985629621) (Tổng đài phân phối xe Toyota toàn quốc)
+Liên hệ để nhận tư vấn và báo giá xe Fortuner 2019 lắp ráp trong nước tốt nhất toàn quốc tại Toyota Thái Hòa Từ Liêm qua Hotline : [0985.629.621](tel:0985629621) (Tổng đài phân phối xe Toyota toàn quốc)
